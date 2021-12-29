@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ravi's home</title>
+</head>
+<body>
+<link rel="stylesheet" href="ravi.css">
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="RLB.html">Home</a>
+    <a href="#">Appointments</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+</div>
+
+
+<span onclick="openNav()">open</span>
+
+
+<div id="main">
+
+</div>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+</script>
+</body>
+</html>

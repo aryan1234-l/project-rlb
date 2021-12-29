@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctor's login Portal</title>
+</head>
+<body>
+<link rel="stylesheet" href="rlb.css">
+<div class="bg-img">
+    <form class="container">
+        <h1>Login</h1>
+
+        <label for="user"><b>User name</b></label>
+        <input type="text" id="user" placeholder="Enter User Name" name="email" required>
+
+        <label for="pssd"><b>Password</b></label>
+        <input type="password" id="pssd" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="btn">Login</button>
+    </form>
+</div>
+<script>
+    document.querySelector("form").addEventListener("submit", get_number);
+    function get_number(e) {
+        const n = document.getElementById("pssd").value;
+        const name = document.getElementById("user").value;
+        if (name === "ravi" && n === "123") {
+            window.open("ravi.html");
+        }
+        if (name === "LK Sharma" && n === "123") {
+            window.open("lksharma.js");
+        }
+
+        if (name === "HP Pathak" && n === "123") {
+            window.open("hppathak.js");
+        }
+        if (name === "R Sawant" && n === "123") {
+            window.open("rsawant.js");
+        }
+        if (name === "KP Singh" && n === "123") {
+            window.open("kpsingh.js");
+        }
+        if (name === "MK yadav" && n === "123") {
+            window.open("mkyadav,js.");
+        }
+            if (name === "M Saxena" && n === "123") {
+                window.open("msaxena.js");
+            }
+            if (name === "SK Rai" && n === "123") {
+                window.open("skrai.js");
+            }
+            if (name === "DK Gupta" && n === "123") {
+                window.open("dkgupta.js");
+            }
+            if (name === "R Kalara" && n === "123") {
+                window.open("rkalara.js");
+            }
+            if (name === "Anand" && n === "123") {
+                window.open("anand.js");
+            }
+            if (name === "Amit Kumar" && n === "123") {
+                window.open("amit_kumar.js");
+            }
+            if (name === "AK Gupta" && n === "123") {
+                window.open("akgupta.js");
+            }
+
+            if (name === "Pavan Kumar" && n === "123") {
+                window.open("pavankumar.js");
+            }
+
+            if (name === "AK Priyadarshi" && n === "123") {
+                window.open("akpriyadarshi.js");
+            } else {
+                alert("Incorrect user name or password");
+            }
+            e.preventDefault();
+
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+#body{
+    background-color: aquamarine;
+}
+body, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("hospital.jpg");
+
+    /* Control the height of the image */
+    min-height: 680px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+    position: absolute;
+          right: 0;
+          margin: 20px;
+          max-width: 1300px;
+          padding: 16px;
+          background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=textarea] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 12px;
+    padding: 16px 20px;
+    border: black 120px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    margin-bottom: 5px;
+
+
+}
+.btn1 {
+
+    background-color: #04AA6D;
+    border-radius: 12px;
+    color: white;
+    padding: 16px 20px;
+    border: black 120px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    margin-bottom: 5px;
+    top: 0px;
+    left:-123px;
+
+}
+
+.btn:hover {
+    opacity: 1;
+}
+.btn1:hover {
+    opacity: 1;
+}
+.container2{
+    background-color: #ADD8E6;
+    position: absolute;
+    right: 29.5cm;
+    margin: 20px;
+    max-width: 180px;
+    padding: 16px;
+
+}
+
+.container3{
+    background-color: #ADD8E6;
+    position: absolute;
+    right: 24.5cm;
+    margin: 20px;
+    max-width: 175px;
+    padding: 16px;
+
+}
+
+.container4{
+    background-color: #ADD8E6;
+    position: absolute;
+    right: 19cm;
+    margin: 20px;
+    max-width: 190px;
+    padding: 16px;
+
+}
+
+.container5{
+    background-color: #ADD8E6;
+    position: absolute;
+    right: 15cm;
+    margin: 20px;
+    max-width: 190px;
+    padding: 16px;
+
+}
+
+
+
+
